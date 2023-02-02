@@ -1,13 +1,11 @@
-package com.sascar.git;
-
-def add(ArrayList files){
+void add(ArrayList files){
     println "git add ${files.join(" ")}"
 }
 
-def commit(String message){
+void commit(String message){
     println "git commit -m ${message}" 
 }
 
-def push(){
+void push(){
     println "git push" 
 }
